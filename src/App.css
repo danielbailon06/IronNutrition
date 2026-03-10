@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+   margin: 0;
+}
+
+.sidebar{
+   position: fixed;
+   width: 250px;
+   top:0;
+   left: 0;
+   bottom: 0;
+   background: #111;
+   padding-top: 50px;
+}
+
+.sidebar h1{
+   display: block;
+   padding: 10px 20px;
+   color: #03f5a7;
+   text-decoration: none;
+   font-family: "Figtree", sans-serif;
+   letter-spacing: 2px;
+   margin: 0;
+   font-size: 22px;
+   text-transform: uppercase;
+}
+
+.sidebar a{
+   display: block;
+   padding: 10px 20px;
+   color: #bbb;
+   text-decoration: none;
+   font-family: "Figtree", sans-serif;
+   letter-spacing: 2px;
+}
+
+.sidebar a:hover{
+   color: #03f5a7;
+   margin-left: 20px;
+   transition: 0.4s;
+}
+

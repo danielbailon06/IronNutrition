@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #111;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+footer img {
+    width: 25px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: "Figtree", sans-serif;
+}
+
+footer a:hover{
+    transition: 0.4s;
+    color: #03f5a7;
+}

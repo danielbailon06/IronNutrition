@@ -1,0 +1,14 @@
+.navbar {
+  padding: 15px 40px;
+  background-color: #111;
+  color: white;
+  margin-left: 250px;
+}
+
+.navbar-title img{
+  width: 125px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+}
+
