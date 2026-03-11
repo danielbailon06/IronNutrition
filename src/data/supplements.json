@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Whey Protein Isolate",
+    "brand": "Optimum Nutrition",
+    "type": "Protein",
+    "flavor": "Chocolate",
+    "price": 39.99,
+    "weight": "1kg",
+    "stock": 4
+  },
+  {
+    "id": 2,
+    "name": "Creatine Monohydrate",
+    "brand": "MyProtein",
+    "type": "Creatine",
+    "flavor": "Unflavored",
+    "price": 19.99,
+    "weight": "500g",
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "name": "Pre-Workout Extreme",
+    "brand": "Cellucor",
+    "type": "Pre-Workout",
+    "flavor": "Fruit Punch",
+    "price": 29.99,
+    "weight": "300g",
+    "stock": 5
+  },
+  {
+    "id": 4,
+    "name": "BCAA 2:1:1",
+    "brand": "Scivation",
+    "type": "Amino Acids",
+    "flavor": "Watermelon",
+    "price": 24.99,
+    "weight": "400g",
+    "stock": 0
+  },
+  {
+    "id": 5,
+    "name": "Mass Gainer",
+    "brand": "Dymatize",
+    "type": "Weight Gainer",
+    "flavor": "Vanilla",
+    "price": 49.99,
+    "weight": "2kg",
+    "stock": 2
+  },
+  {
+    "id": 6,
+    "name": "L-Carnitine Liquid",
+    "brand": "Weider",
+    "type": "Fat Burner",
+    "flavor": "Lemon",
+    "price": 21.99,
+    "weight": "500ml",
+    "stock": 0
+  }
+]
