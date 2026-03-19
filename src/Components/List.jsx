@@ -8,6 +8,7 @@ function List(props) {
           key={item.id}
           item={item}
           onDelete={props.onDelete}
+          onEdit={props.onEdit}
         />
       ))}
     </div>

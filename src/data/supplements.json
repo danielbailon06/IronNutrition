@@ -58,5 +58,65 @@
     "price": 21.99,
     "weight": "500ml",
     "stock": 0
+  },
+  {
+    "id": 7,
+    "name": "Casein Protein",
+    "brand": "Optimum Nutrition",
+    "type": "Protein",
+    "flavor": "Cookies & Cream",
+    "price": 42.99,
+    "weight": "1kg",
+    "stock": 6
+  },
+  {
+    "id": 8,
+    "name": "Caffeine Capsules",
+    "brand": "Bulk",
+    "type": "Energy",
+    "flavor": "Unflavored",
+    "price": 14.99,
+    "weight": "100 capsules",
+    "stock": 12
+  },
+  {
+    "id": 9,
+    "name": "Omega 3 Fish Oil",
+    "brand": "Now Foods",
+    "type": "Health",
+    "flavor": "Unflavored",
+    "price": 17.99,
+    "weight": "200 capsules",
+    "stock": 9
+  },
+  {
+    "id": 10,
+    "name": "Multivitamin Complex",
+    "brand": "Universal Nutrition",
+    "type": "Vitamins",
+    "flavor": "Unflavored",
+    "price": 22.99,
+    "weight": "90 tablets",
+    "stock": 7
+  },
+  {
+    "id": 11,
+    "name": "ZMA Recovery",
+    "brand": "MyProtein",
+    "type": "Recovery",
+    "flavor": "Unflavored",
+    "price": 18.99,
+    "weight": "120 capsules",
+    "stock": 3
+  },
+  {
+    "id": 12,
+    "name": "Glutamine Powder",
+    "brand": "Scitec Nutrition",
+    "type": "Amino Acids",
+    "flavor": "Unflavored",
+    "price": 16.99,
+    "weight": "300g",
+    "stock": 10
   }
 ]
