@@ -19,21 +19,30 @@ import AddProductPage from './Components/AddProductPage.jsx';
 
 function App() {
   const [supplementsList, setSupplementsList] = useState(supplements);
-
-  const addItem = (newItem) => {
-    setSupplementsList([newItem, ...supplementsList]);
-  };
+  const [itemToEdit, setItemToEdit] = useState(null);
 
   const deleteItem = (id) => {
     const newItemList = supplementsList.filter((item) => item.id !== id);
     setSupplementsList(newItemList);
   };
 
+  const addItem = (newItem) => {
+    setSupplementsList([newItem, ...supplementsList]);
+  };
+
+  const updateItem = (updatedItem) => {
+    const updatedList = supplementsList.map((item) =>
+      item.id === updatedItem.id ? updatedItem : item
+    );
+
+    setSupplementsList(updatedList);
+    setItemToEdit(null);
+  };
+
   return (
     <div>
       <Navbar />
       <Sidebar />
-
       <Routes>
         <Route
           path="/"
@@ -41,6 +50,9 @@ function App() {
             <DashboardPage
               supplementsList={supplementsList}
               onDelete={deleteItem}
+              onEdit={setItemToEdit}
+              itemToEdit={itemToEdit}
+              onUpdate={updateItem}
             />
           }
         />
@@ -48,14 +60,23 @@ function App() {
           path="/new-product"
           element={<AddProductPage onAddItem={addItem} />}
         />
-        <Route path="/items/:itemId" element={<ItemDetailsPage />} />
+        <Route
+          path="/items/:itemId"
+          element={
+            <ItemDetailsPage
+              supplementsList={supplementsList}
+              onEdit={setItemToEdit}
+              itemToEdit={itemToEdit}
+              onUpdate={updateItem}
+            />
+          }
+        />
         <Route path="/about" element={<AboutPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

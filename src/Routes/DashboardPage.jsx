@@ -5,6 +5,9 @@ function DashboardPage(props) {
     <SupplementsList
       supplementsList={props.supplementsList}
       onDelete={props.onDelete}
+      onEdit={props.onEdit}
+      itemToEdit={props.itemToEdit}
+      onUpdate={props.onUpdate}
     />
   );
 }
