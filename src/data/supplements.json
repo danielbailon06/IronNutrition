@@ -118,5 +118,285 @@
     "price": 16.99,
     "weight": "300g",
     "stock": 10
+  },
+  {
+    "id": 13,
+    "name": "Hydro Whey",
+    "brand": "Optimum Nutrition",
+    "type": "Protein",
+    "flavor": "Strawberry",
+    "price": 44.99,
+    "weight": "900g",
+    "stock": 5
+  },
+  {
+    "id": 14,
+    "name": "Vegan Protein Blend",
+    "brand": "MyProtein",
+    "type": "Protein",
+    "flavor": "Chocolate",
+    "price": 34.99,
+    "weight": "1kg",
+    "stock": 11
+  },
+  {
+    "id": 15,
+    "name": "Nitric Oxide Booster",
+    "brand": "BSN",
+    "type": "Pre-Workout",
+    "flavor": "Orange",
+    "price": 27.99,
+    "weight": "250g",
+    "stock": 6
+  },
+  {
+    "id": 16,
+    "name": "Electrolyte Drink Mix",
+    "brand": "Gatorade",
+    "type": "Hydration",
+    "flavor": "Lemon Lime",
+    "price": 12.99,
+    "weight": "500g",
+    "stock": 15
+  },
+  {
+    "id": 17,
+    "name": "Protein Bar",
+    "brand": "Grenade",
+    "type": "Snacks",
+    "flavor": "Caramel",
+    "price": 2.99,
+    "weight": "60g",
+    "stock": 30
+  },
+  {
+    "id": 18,
+    "name": "Energy Gel",
+    "brand": "SIS",
+    "type": "Energy",
+    "flavor": "Berry",
+    "price": 1.99,
+    "weight": "40g",
+    "stock": 25
+  },
+  {
+    "id": 19,
+    "name": "Collagen Peptides",
+    "brand": "Vital Proteins",
+    "type": "Health",
+    "flavor": "Unflavored",
+    "price": 29.99,
+    "weight": "300g",
+    "stock": 7
+  },
+  {
+    "id": 20,
+    "name": "Ashwagandha Capsules",
+    "brand": "Himalaya",
+    "type": "Health",
+    "flavor": "Unflavored",
+    "price": 15.99,
+    "weight": "60 capsules",
+    "stock": 10
+  },
+  {
+    "id": 21,
+    "name": "Test Booster",
+    "brand": "MuscleTech",
+    "type": "Hormone Support",
+    "flavor": "Unflavored",
+    "price": 39.99,
+    "weight": "90 capsules",
+    "stock": 4
+  },
+  {
+    "id": 22,
+    "name": "Carb Loader",
+    "brand": "Bulk",
+    "type": "Carbohydrates",
+    "flavor": "Unflavored",
+    "price": 13.99,
+    "weight": "1kg",
+    "stock": 13
+  },
+  {
+    "id": 23,
+    "name": "Intra Workout",
+    "brand": "Xtend",
+    "type": "Amino Acids",
+    "flavor": "Blue Raspberry",
+    "price": 26.99,
+    "weight": "350g",
+    "stock": 6
+  },
+  {
+    "id": 24,
+    "name": "Protein Pancake Mix",
+    "brand": "MyProtein",
+    "type": "Food",
+    "flavor": "Maple",
+    "price": 11.99,
+    "weight": "500g",
+    "stock": 14
+  },
+  {
+    "id": 25,
+    "name": "Vitamin D3",
+    "brand": "Now Foods",
+    "type": "Vitamins",
+    "flavor": "Unflavored",
+    "price": 9.99,
+    "weight": "120 capsules",
+    "stock": 20
+  },
+  {
+    "id": 26,
+    "name": "Magnesium Citrate",
+    "brand": "Solgar",
+    "type": "Minerals",
+    "flavor": "Unflavored",
+    "price": 12.99,
+    "weight": "100 tablets",
+    "stock": 9
+  },
+  {
+    "id": 27,
+    "name": "Beta Alanine",
+    "brand": "Bulk",
+    "type": "Performance",
+    "flavor": "Unflavored",
+    "price": 15.99,
+    "weight": "300g",
+    "stock": 8
+  },
+  {
+    "id": 28,
+    "name": "Fat Burner Xtreme",
+    "brand": "Cellucor",
+    "type": "Fat Burner",
+    "flavor": "Capsules",
+    "price": 34.99,
+    "weight": "60 capsules",
+    "stock": 5
+  },
+  {
+    "id": 29,
+    "name": "Protein Cookie",
+    "brand": "MyProtein",
+    "type": "Snacks",
+    "flavor": "Double Chocolate",
+    "price": 2.49,
+    "weight": "75g",
+    "stock": 22
+  },
+  {
+    "id": 30,
+    "name": "EAA Powder",
+    "brand": "Optimum Nutrition",
+    "type": "Amino Acids",
+    "flavor": "Fruit Fusion",
+    "price": 28.99,
+    "weight": "400g",
+    "stock": 7
+  },
+  {
+    "id": 31,
+    "name": "Green Superfood",
+    "brand": "Amazing Grass",
+    "type": "Health",
+    "flavor": "Berry",
+    "price": 24.99,
+    "weight": "300g",
+    "stock": 6
+  },
+  {
+    "id": 32,
+    "name": "Electrolyte Capsules",
+    "brand": "SaltStick",
+    "type": "Hydration",
+    "flavor": "Unflavored",
+    "price": 19.99,
+    "weight": "100 capsules",
+    "stock": 11
+  },
+  {
+    "id": 33,
+    "name": "Protein Shake Ready",
+    "brand": "YFood",
+    "type": "Meal Replacement",
+    "flavor": "Chocolate",
+    "price": 3.99,
+    "weight": "500ml",
+    "stock": 18
+  },
+  {
+    "id": 34,
+    "name": "Rice Protein",
+    "brand": "Bulk",
+    "type": "Protein",
+    "flavor": "Vanilla",
+    "price": 22.99,
+    "weight": "1kg",
+    "stock": 9
+  },
+  {
+    "id": 35,
+    "name": "Joint Support",
+    "brand": "Universal Nutrition",
+    "type": "Health",
+    "flavor": "Capsules",
+    "price": 23.99,
+    "weight": "120 capsules",
+    "stock": 5
+  },
+  {
+    "id": 36,
+    "name": "Protein Oats",
+    "brand": "MyProtein",
+    "type": "Food",
+    "flavor": "Apple Cinnamon",
+    "price": 6.99,
+    "weight": "1kg",
+    "stock": 16
+  },
+  {
+    "id": 37,
+    "name": "Isotonic Drink",
+    "brand": "Powerade",
+    "type": "Hydration",
+    "flavor": "Orange",
+    "price": 1.49,
+    "weight": "500ml",
+    "stock": 40
+  },
+  {
+    "id": 38,
+    "name": "Pre Workout Pump",
+    "brand": "Ghost",
+    "type": "Pre-Workout",
+    "flavor": "Sour Patch",
+    "price": 32.99,
+    "weight": "350g",
+    "stock": 6
+  },
+  {
+    "id": 39,
+    "name": "Protein Muffin Mix",
+    "brand": "MyProtein",
+    "type": "Food",
+    "flavor": "Chocolate",
+    "price": 9.99,
+    "weight": "500g",
+    "stock": 12
+  },
+  {
+    "id": 40,
+    "name": "Sleep Support",
+    "brand": "Optimum Nutrition",
+    "type": "Recovery",
+    "flavor": "Capsules",
+    "price": 21.99,
+    "weight": "60 capsules",
+    "stock": 4
   }
 ]

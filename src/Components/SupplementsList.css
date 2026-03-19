@@ -5,7 +5,6 @@
     margin: 40px auto;
     padding: 20px;
     font-family: "Figtree", sans-serif;
-    color: #1e293b;
 }
 
 .product-row {
@@ -19,6 +18,11 @@
     padding: 18px 20px;
     margin-bottom: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.product-row:hover{
+    background-color: #e5e7eb;
+    transition: 0.5s ease;
 }
 
 .product-name,
@@ -123,4 +127,22 @@
 .add-form button:hover {
     background: black;
     color: #03f5a7;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  font-family: "Figtree", sans-serif;
+  transition: 0.2s ease;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #03f5a7;
+  box-shadow: 0 0 0 3px rgba(3, 245, 167, 0.15);
 }
